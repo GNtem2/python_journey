@@ -5,4 +5,4 @@ The first part focusses on geospatial analysis and use the osmnx library. The tu
 
 The second part focusses on machine learning and uses sklearn. The random forest regression example is provided [here](./RFstandfirm.ipynb)
 
-The third part focusses on manifold learning and uses sklearn manifold tsne. The T-distributed Stochastic Neigbor Emebdding example is provided [![here](./TSNEecr_sns.png)](./TSNEecr.ipynb). This is a low dimensional representation of the thrombectomy trial data. The file also contains illustration about merging pandas data frame and provides 3 types of plot: seaborn, matplotlib and plotnine-ggplot style.
+The third part focusses on manifold learning and uses sklearn manifold tsne. The T-distributed Stochastic Neigbor Embedding example is provided below. [![here](./TSNEecr_sns.png)](./TSNEecr.ipynb) This is a low dimensional representation of the thrombectomy trial data. The file also contains illustration about merging pandas data frame and provides 3 types of plot: seaborn, matplotlib and plotnine-ggplot style.
