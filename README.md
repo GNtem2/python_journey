@@ -10,4 +10,16 @@ The second part focusses on machine learning and use sklearn. This example illus
 
 The third part focusses on manifold learning and uses sklearn manifold tsne. The T-distributed Stochastic Neighbor Embedding example is provided below. This is a low dimensional representation of the thrombectomy trial data. The file also contains illustration about merging pandas data frame and provides 3 types of plot: seaborn, matplotlib and plotnine-ggplot style.
 
-[![here](./TSNEecr_sns.png)](./TSNEecr.ipynb) 
+The seaborn plot is shown. 
+
+[![here](./TSNEecr_sns.png)](./TSNEecr.ipynb)
+
+The matplotlib plot is shown.
+
+![here](./TSNEecr_matplotlib.png)
+
+The plotnine plot is shown. 
+
+![here](./TSNEecr_plotnine.png)
+
+
