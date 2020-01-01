@@ -14,6 +14,9 @@ The seaborn plot is shown.
 [![here](./TSNEecr_sns.png)](./TSNEecr.ipynb)
 
 The matplotlib plot is shown.
+
 ![here](./TSNEecr_matplotlib.png)
 
-The plotnine plot is shown. ![here](./TSNEecr_plotnine.png)
+The plotnine plot is shown. 
+
+![here](./TSNEecr_plotnine.png)
