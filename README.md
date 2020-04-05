@@ -72,7 +72,9 @@ destination= ox.utils.geocode('The Westin Hotel, Brisbane, Queensland')
 destination_node=ox.get_nearest_node(G,destination)
 route = nx.shortest_path(G, origin_node, destination_node)
 ox.plot_graph_route(G, route)
-```[Brisbane.ipynb](./Brisbane.ipynb)
+```
+[![Brisbane.ipynb](./Westin.png](./Brisbane.ipynb)
+
 A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages.  The codes have been adapted from Geof Boeing's OSMNX page. 
 
 [![here](./AustCities.png)](./AustCities-Copy1.ipynb).
