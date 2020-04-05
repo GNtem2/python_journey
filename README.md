@@ -58,3 +58,6 @@ from plotnine import *
 )+labs(color="Disability",shape='Trajectory')
 ```
 ![here](./TSNEecr_plotnine.png)
+
+Geospatial analysis:
+This part focusses on geospatial analysis and use the osmnx library. The tutorial paper is available [here](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/full). The [Brisbane.ipynb](./Brisbane.ipynb) python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages. [![here](./AustCities.png)](./AustCities-Copy1.ipynb) 
