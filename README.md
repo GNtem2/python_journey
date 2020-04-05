@@ -62,7 +62,7 @@ from plotnine import *
 Geospatial analysis:
 This part focusses on geospatial analysis and use the osmnx library. The tutorial paper is available [here](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/full). This section was done by setting up an environment for geospatial analysis using Miniconda
 
-The [Brisbane.ipynb](./Brisbane.ipynb) python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. 
+The  python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. 
 
 ```python
 #see the code in Brisbane.ipynb notebook
@@ -72,6 +72,7 @@ destination= ox.utils.geocode('The Westin Hotel, Brisbane, Queensland')
 destination_node=ox.get_nearest_node(G,destination)
 route = nx.shortest_path(G, origin_node, destination_node)
 ox.plot_graph_route(G, route)
-```
+```[Brisbane.ipynb](./Brisbane.ipynb)
+A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages.  The codes have been adapted from Geof Boeing's OSMNX page. 
 
-A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages. [![here](./AustCities.png)](./AustCities-Copy1.ipynb). The codes have been adapted from Geof Boeing's OSMNX page. 
+[![here](./AustCities.png)](./AustCities-Copy1.ipynb).
