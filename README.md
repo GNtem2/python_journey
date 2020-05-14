@@ -71,19 +71,21 @@ from plotnine import *
 
 A file for creating flow is provided. It uses _pydot_ which interfaces with _graphviz_. Graphviz needs to be installed separately and the path set under environment C:\Program Files (x86)\Graphviz\bin
 
-###  Machine learning-Random Forest
+##  Machine learning
+
+### Random Forest
 
 This part focusses on machine learning and use sklearn. Random forest is , a supervised machine learning method related to decision tree analysis, which employed random selection of covariates and patients from the dataset to create multiple trees. This form of ensemble learning utilises ‘wisdom of the crowd’ to create the model. This example illustrates the use of _regression_ with random forest and a plot of observed vs predicted is provided in RFstandfirm.ipynb notebook. An example with random forest _classification_ is provided in the DrivingReg.ipynb notebook. The random forest model is evaluated using the library _shap_ to determine the contribution of the variables to the model.  This example comes with demo of creation of GUI for testing new data using the model created by random forest. 
 
 [![here](./RandomForest/RFstandfirm_regression.png)](./RandomForest/RFstandfirm.ipynb)
 
-### Machine learning-TSNE
+### TSNE
 
 This part focusses on manifold learning and uses sklearn manifold tsne. The T-distributed Stochastic Neighbor Embedding example is provided below. The analysis shown here performs a low dimensional representation of the trajectory of stroke severity measurements in thrombectomy trials data. 
 
 ## Geospatial analysis
 
-This part focusses on geospatial analysis and use the osmnx library. The tutorial paper is available [here](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/full). The [Brisbane.ipynb](./Brisbane.ipynb) python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages. [![here](./Geospatial/AustCities.png) align "center" width "48" height "48" ](./Geospatial/AustCities-Copy1.ipynb) 
+This part focusses on geospatial analysis and use the osmnx library. The tutorial paper is available [here](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/full). The [Brisbane.ipynb](./Brisbane.ipynb) python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages. [![here](./Geospatial/AustCities.png){:align="center" width="48px" height="48px"}](./Geospatial/AustCities-Copy1.ipynb) 
 
 ## Git
 
@@ -92,5 +94,7 @@ A folder can be iniiated using the following commands git init.  Use git fetch t
 ```git
 git init 
 git remote add origin https://github.com/GNtem2/python_journey.git
-
+git add README.md
+git commit -m "update"
+git push -u orgin master
 ```
