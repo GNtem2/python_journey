@@ -6,13 +6,14 @@ These codes are part of my journey learning python.
 ## Data Wrangling
 
 ### Opening files 
-The file also contains illustration about opening of R files in the form of .Rda. You will need to import pyreadr and pyreadr.read_r("name of file.rda"). Xcel files like csv can be opened using pandas. You will need to import pandas as pd then run this line pd.read_csv("name of file.csv"). 
+The starting point for learning python is pandas. A small example is given below on opening of file in jupyter notebook. Documentation for pandas can be found at https://pandas.pydata.org/pandas-docs/stable/user_guide/.cThe file also contains illustration about opening of R files in the form of .Rda. You will need to import pyreadr and pyreadr.read_r("name of file.rda"). Xcel files like csv can be opened using pandas. You will need to import pandas as pd then run this line pd.read_csv("name of file.csv"). 
 
 ```python
 import pandas as pd
 import pyreadr 
 pd.read_csv('name of file.csv')
 ```
+
 ## Handling dataframe
 
 Pandas data frame can be merged using pd.concat([file1,file2],axis=1). The line axis=1 indicates that the merge is by columns. Similarly, dropping a column is performed by specifying drop after name of file such as file.drop (['name of column'],axis=1). Selecting a column from data frame can be done by writing file['name of column']. selcting multiple columns require [['name of column1','name of column2']].
@@ -85,11 +86,19 @@ This part focusses on manifold learning and uses sklearn manifold tsne. The T-di
 
 ## Geospatial analysis
 
-This part focusses on geospatial analysis and use the osmnx library. The tutorial paper is available [here](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/full). The [Brisbane.ipynb](./Brisbane.ipynb) python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The AustCities-Copy1.ipynb note book is available in gh-pages. [![here](./Geospatial/AustCities.png){:align="center" width="48px" height="48px"}](./Geospatial/AustCities-Copy1.ipynb) 
+This part focusses on geospatial analysis and use the osmnx library. The tutorial paper is available [here](https://www.frontiersin.org/articles/10.3389/fneur.2019.00743/full). The [Brisbane.ipynb](./Geospatial/Brisbane.ipynb) python notebook deals with journey from Westin Hotel to surrounding building within 500 metres radius. A second example uses codes provided from osmnx for examining street network orientation in Australian Capital Cities. The [AustCities-Copy1.ipynb](./Geospatial/Austcities-Copy1.ipynb) note book is available in gh-pages. 
+
+<img src="./Geospatial/AustCities.png" width="400" height="400" /><
+
+
+
+## Github Flavored Markdown
+
+This document can be seen as a way to write document for viewing on the web especially github. Markdown files are denoted by .md extension and can be viewed similarly on Rstudio or Jupyter. Italics are denoted by _ underscore before and after a word or phrase. There are several differerent ways for adding images: using html tag or using square brackets follow by round brackets. Images can be resized using the html tag with the argument on width and height following _src_ argument. You can also send email by using @ follow by the username. An example would be @GNtem2.
 
 ## Git
 
-A folder can be iniiated using the following commands git init.  Use git fetch to download file from github. Git pull update the current head branch from remote folder. Git discusses local as the folder in your directory and remote as the repository in github.
+A folder can be iniated using the following commands git init.  Use git fetch to download file from github. Git pull update the current head branch from remote folder. Git discusses local as the folder in your directory and remote as the repository in github.
 
 ```git
 git init 
