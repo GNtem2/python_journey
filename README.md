@@ -97,7 +97,7 @@ The Statsmodel library is used to find the marginal effect for logit model (./Ep
 
 This part focusses on machine learning and use sklearn. Random forest is , a supervised machine learning method related to decision tree analysis, which employed random selection of covariates and patients from the dataset to create multiple trees. This form of ensemble learning utilises ‘wisdom of the crowd’ to create the model. This example illustrates the use of _regression_ with random forest and a plot of observed vs predicted is provided in RFstandfirm.ipynb notebook. An example with random forest _classification_ is provided in the DrivingReg.ipynb notebook. The random forest model is evaluated using the library _shap_ to determine the contribution of the variables to the model.  This example comes with demo of creation of GUI for testing new data using the model created by random forest. In this analysis, the SHAP library is used to explain the marginal contribution of the covariates to the model.  
 
-[![a single tree in random forest](./RandomForest/small_tree.png)](./RandomForest/RFstandfirm.ipynb)
+[![random forest](./RandomForest/tree.png)](./RandomForest/RFstandfirm.ipynb)
 
 ### TSNE
 
